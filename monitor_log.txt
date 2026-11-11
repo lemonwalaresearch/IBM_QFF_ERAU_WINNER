@@ -1,0 +1,18 @@
+3-class macro-F1
+   QBER rule (standard)             0.578 ± 0.009
+   Physics rule (2 thresholds)      0.927 ± 0.022
+   Logistic regression              0.964 ± 0.016
+   Random forest                    0.953 ± 0.025
+   MLP                              0.959 ± 0.019
+   RBF-kernel SVM (classical, tuned) 0.959 ± 0.017
+   Quantum-kernel SVM (untuned)     0.805 ± 0.037
+   Quantum-kernel SVM (tuned)       0.949 ± 0.021
+eve-vs-turbulence acc
+   QBER rule (standard)             0.460 ± 0.015
+   Physics rule (2 thresholds)      0.440 ± 0.060
+   Logistic regression              0.497 ± 0.051
+   Random forest                    0.457 ± 0.067
+   MLP                              0.483 ± 0.061
+   RBF-kernel SVM (classical, tuned) 0.515 ± 0.035
+   Quantum-kernel SVM (untuned)     0.543 ± 0.061
+   Quantum-kernel SVM (tuned)       0.517 ± 0.096
